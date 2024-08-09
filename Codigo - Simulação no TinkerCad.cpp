@@ -2,6 +2,8 @@
 // LINK PARA SIMULAÇÃO:
 // https://www.tinkercad.com/things/jNPZD7hVIjb-mistura-de-liquidos/editel?sharecode=8kJ6d8iZDaeuQJXukGbggSDvc3Vh1KTKSYDCgi776bI
 
+#include <Arduino.h>
+
 #include <LiquidCrystal.h>
 
 LiquidCrystal led(12, 13, A0, A1, A2, A3);
